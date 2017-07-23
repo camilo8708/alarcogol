@@ -157,7 +157,7 @@ INSTALLED_APPS = (
     'connected_accounts.providers',
     'djangocms_instagram',
 
-    'cmsplugin_carousel',
+    ##'cmsplugin_carousel',
     'alarcogol'
 )
 
