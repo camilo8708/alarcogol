@@ -1,1 +1,1 @@
-web: gunicorn alarcogol.wsgi
+web: python manage.py collectstatic --noinput; gunicorn alarcogol.wsgi --log-file -
