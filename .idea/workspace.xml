@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f3525310-d3c5-4226-afed-9f5dcf432beb" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/requirements.txt" afterPath="$PROJECT_DIR$/requirements.txt" />
     </list>
     <ignored path="alarcogol_site.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -552,7 +551,14 @@
       <option name="project" value="LOCAL" />
       <updated>1500951147300</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Ajueste procfile">
+      <created>1500951434660</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1500951434660</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TodoView">
