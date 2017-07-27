@@ -52,8 +52,8 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/alarcogol/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="30" column="20" lean-forward="false" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+            <state relative-caret-position="428">
+              <caret line="267" column="2" lean-forward="false" selection-start-line="267" selection-start-column="2" selection-end-line="267" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -566,7 +566,14 @@
       <option name="project" value="LOCAL" />
       <updated>1500951855768</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Allowed Hosts">
+      <created>1501128119766</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1501128119766</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TodoView">
@@ -623,7 +630,8 @@
     <MESSAGE value="coment cmscarusel_plugin" />
     <MESSAGE value="Ajueste requeriments" />
     <MESSAGE value="Ajueste procfile" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajueste procfile" />
+    <MESSAGE value="Allowed Hosts" />
+    <option name="LAST_COMMIT_MESSAGE" value="Allowed Hosts" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -985,8 +993,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/alarcogol/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="30" column="20" lean-forward="false" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+        <state relative-caret-position="428">
+          <caret line="267" column="2" lean-forward="false" selection-start-line="267" selection-start-column="2" selection-end-line="267" selection-end-column="2" />
           <folding />
         </state>
       </provider>
