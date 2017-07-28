@@ -1,0 +1,16 @@
+{% load cms_tags i18n sekizai_tags staticfiles %}
+<div class="row">
+	{% with instance.get_media as media_feed %}
+
+		{% for media in media_feed %}
+	<div class="col-lg-3">
+		<div class="thumbnail" id="media-{{ media.id}}">
+
+			<img alt="100%x200" data-src="holder.js/100%x200" src="{{ media.images.standard_resolution.url}}"
+                 style="height: 200px; width: 100%; display: block;" data-holder-rendered="true">
+		</div>
+	</div>
+		{% endfor %}
+	{% endwith %}
+</div>
+<header>
