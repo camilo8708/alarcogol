@@ -13,5 +13,6 @@ class Command(BaseCommand):
         text = open(destino, 'r')
         ct = 1
         for line in text:
-            print(str(ct) + ' - ' +str(line))
+            if ct > 90 and ct < 110:
+                print(str(ct) + ' - ' +str(line))
             ct=ct+1
