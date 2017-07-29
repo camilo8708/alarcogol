@@ -10,7 +10,7 @@ class Command(BaseCommand):
         origen = 'static/models.py'
         destino = '/app/.heroku/python/lib/python3.6/site-packages/instagram/models.py'
 
-        text = open(origen, 'r')
+        text = open(destino, 'r')
         ct = 1
         for line in text:
             print(str(ct) + ' - ' +str(line))
