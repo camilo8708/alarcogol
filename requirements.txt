@@ -23,4 +23,5 @@ django-sekizai>=0.9
 six
 aldryn_style==1.1.4
 aldryn_bootstrap3==1.2.2
+Instagram
 djangocms-instagram
