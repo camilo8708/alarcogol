@@ -21,6 +21,6 @@ html5lib>=0.999999,<0.99999999
 Pillow>=3.0
 django-sekizai>=0.9
 six
-djangocms-instagram
 aldryn_style==1.1.4
 aldryn_bootstrap3==1.2.2
+djangocms-instagram
