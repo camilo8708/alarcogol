@@ -50,9 +50,10 @@
       <file leaf-file-name="instagram.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/alarcogol/templates/instagram.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="29" column="38" lean-forward="true" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
+            <state relative-caret-position="306">
+              <caret line="28" column="65" lean-forward="false" selection-start-line="28" selection-start-column="65" selection-end-line="28" selection-end-column="65" />
               <folding>
+                <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#h4#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
@@ -62,8 +63,8 @@
       <file leaf-file-name="default.html" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/Env/Lib/site-packages/djangocms_instagram/templates/djangocms_instagram/default.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="33" selection-end-column="23" />
+            <state relative-caret-position="153">
+              <caret line="9" column="77" lean-forward="false" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="77" />
               <folding />
             </state>
           </provider>
@@ -887,7 +888,14 @@
       <option name="project" value="LOCAL" />
       <updated>1501388967438</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Vista Instagram">
+      <created>1501389672504</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1501389672504</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1289,17 +1297,18 @@
     </entry>
     <entry file="file://$USER_HOME$/Env/Lib/site-packages/djangocms_instagram/templates/djangocms_instagram/default.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="33" selection-end-column="23" />
+        <state relative-caret-position="153">
+          <caret line="9" column="77" lean-forward="false" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="77" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/alarcogol/templates/instagram.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="29" column="38" lean-forward="true" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
+        <state relative-caret-position="306">
+          <caret line="28" column="65" lean-forward="false" selection-start-line="28" selection-start-column="65" selection-end-line="28" selection-end-column="65" />
           <folding>
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#h4#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
