@@ -22,9 +22,12 @@
                         <div class="modal-header">
                             <button type="button" class="close" data-dismiss="modal">&times;</button>
                             <h4 class="modal-title">
-                                {% if media.caption %}
-                                        {{ media.caption.text }}
-                                {% endif %}
+                                <div class="avatar">
+                                    <a href="http://www.instagram.com/{{ media.user.username }}" target="_blank">
+                                        <img class="profile" src="{{ media.user.profile_picture }}"
+                                             alt="{{ media.user.full_name }}">
+                                    </a>
+                                </div>
                             </h4>
                         </div>
                         <div class="modal-body">
@@ -34,6 +37,11 @@
                                          alt="{{ media.caption.text }}" style="height: 600px; width: 100%; display: block;">
                                 </a>
                             </div>
+                            {% if media.caption %}
+                                <div class="caption">
+                                    {{ media.caption.text }}
+                                </div>
+                            {% endif %}
                         </div>
                     </div>
                 </div>
