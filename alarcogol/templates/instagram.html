@@ -1,16 +1,66 @@
+<br>
 {% load cms_tags i18n sekizai_tags staticfiles %}
 <div class="row">
-	{% with instance.get_media as media_feed %}
+    {% with instance.get_media as media_feed %}
 
-		{% for media in media_feed %}
-	<div class="col-lg-3">
-		<div class="thumbnail" id="media-{{ media.id}}">
+        {% for media in media_feed %}
+            <div class="col-lg-3">
+                <div class="thumbnail" id="media-{{ media.id}}">
+                    <a data-toggle="modal" data-target="#myModal{{ media.id}}">
+                        <img alt="100%x200" data-src="holder.js/100%x200" src="{{ media.images.standard_resolution.url}}"
+                             style="height: 200px; width: 100%; display: block;" data-holder-rendered="true">
+                    </a>
+                </div>
+            </div>
 
-			<img alt="100%x200" data-src="holder.js/100%x200" src="{{ media.images.standard_resolution.url}}"
-                 style="height: 200px; width: 100%; display: block;" data-holder-rendered="true">
-		</div>
-	</div>
-		{% endfor %}
-	{% endwith %}
+            <!-- Modal -->
+            <div id="myModal{{ media.id}}" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">
+                                {% if media.caption %}
+                                        {{ media.caption.text }}
+                                {% endif %}
+                            </h4>
+                        </div>
+                        <div class="modal-body">
+                            <div class="media {{ media.type }} {{ media.filter|lower }}">
+                                <a href="{{ media.link }}" target="_blank">
+                                    <img src="{{ media.images.standard_resolution.url }}"
+                                         alt="{{ media.caption.text }}" style="height: 600px; width: 100%; display: block;">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    {% endwith %}
 </div>
+
+
+<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Modal Header</h4>
+            </div>
+            <div class="modal-body">
+                <p>Some text in the modal. #variable</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
 <header>
