@@ -1,3 +1,4 @@
+Instagram
 gunicorn==19.4.5
 psycopg2==2.6.1
 django-cms<3.5
