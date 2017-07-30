@@ -1,0 +1,1 @@
+web1: python manage.py ajusteLib; python manage.py collectstatic --noinput; gunicorn alarcogol.wsgi --log-file -
