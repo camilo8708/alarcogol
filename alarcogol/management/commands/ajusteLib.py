@@ -8,7 +8,7 @@ class Command(BaseCommand):
 
     def handle(self, *args, **options):
         origen = 'static/models.py'
-        destino = '/app/.heroku/python/lib/python3.6/site-packages/instagram/models.py'
+        destino = '/app/.heroku/python/lib/python2.7/site-packages/instagram/models.py'
 
         try:
             shutil.copyfile(origen, destino)
