@@ -198,11 +198,11 @@ DATABASES = {
     'default': {
         'CONN_MAX_AGE': 0,
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'HOST': 'ec2-23-21-227-73.compute-1.amazonaws.com', #os.environ.get('DATABASE_HOST', ''),
-        'NAME': 'd7dne8e2vo9ts7', #os.environ.get('DATABASE_NAME', ''),
-        'PASSWORD': 'e0c53ed29d0e37209919801640157ef338089044a0270bda04113b8ceb5c05b4', #os.environ.get('DATABASE_PASS', ''),
-        'PORT': '5432', #os.environ.get('DATABASE_PORT', ''),
-        'USER': 'uelooavenygpgo' #os.environ.get('DATABASE_USER', '')
+        'HOST': os.environ.get('DATABASE_HOST', ''),
+        'NAME': os.environ.get('DATABASE_NAME', ''),
+        'PASSWORD': os.environ.get('DATABASE_PASS', ''),
+        'PORT': os.environ.get('DATABASE_PORT', ''),
+        'USER': os.environ.get('DATABASE_USER', '')
     }
 }
 
@@ -254,8 +254,8 @@ CKEDITOR_SETTINGS = {
     ],
 }
 
-CONNECTED_ACCOUNTS_INSTAGRAM_CONSUMER_KEY = '66e6f1d3f96046f581ba76eef7eb97d4' #os.environ.get('INSTAGRAM_KEY', '')
-CONNECTED_ACCOUNTS_INSTAGRAM_CONSUMER_SECRET = '5e654d37e4b5433cbfd93996238a90d5' #os.environ.get('INSTAGRAM_SECRET', '')
+CONNECTED_ACCOUNTS_INSTAGRAM_CONSUMER_KEY = os.environ.get('INSTAGRAM_KEY', '')
+CONNECTED_ACCOUNTS_INSTAGRAM_CONSUMER_SECRET = os.environ.get('INSTAGRAM_SECRET', '')
 DJANGOCMS_INSTAGRAM_PLUGIN_MODULE = ('Generic')
 DJANGOCMS_INSTAGRAM_PLUGIN_NAME = ('Instagram')
 DJANGOCMS_INSTAGRAM_PAGE_ONLY = False
