@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3525310-d3c5-4226-afed-9f5dcf432beb" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/alarcogol/management/commands/leer.py" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/alarcogol/settings.py" afterPath="$PROJECT_DIR$/alarcogol/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/alarcogol/static/css/bootstrap.css" afterPath="$PROJECT_DIR$/alarcogol/static/css/bootstrap.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/alarcogol/static/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/alarcogol/static/css/bootstrap.min.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/alarcogol/templates/base.html" afterPath="$PROJECT_DIR$/alarcogol/templates/base.html" />
     </list>
     <ignored path="alarcogol_site.iws" />
@@ -41,11 +37,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fullwidth.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/alarcogol/templates/fullwidth.html">
+      <file leaf-file-name="base.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/alarcogol/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="14" lean-forward="true" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+            <state relative-caret-position="270">
+              <caret line="35" column="50" lean-forward="true" selection-start-line="35" selection-start-column="50" selection-end-line="35" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -99,10 +95,10 @@
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/alarcogol/management/commands/ajusteLib.py" />
-        <option value="$PROJECT_DIR$/alarcogol/templates/base.html" />
         <option value="$PROJECT_DIR$/alarcogol/settings.py" />
         <option value="$PROJECT_DIR$/alarcogol/static/css/bootstrap.css" />
         <option value="$PROJECT_DIR$/alarcogol/static/css/bootstrap.min.css" />
+        <option value="$PROJECT_DIR$/alarcogol/templates/base.html" />
       </list>
     </option>
   </component>
@@ -514,13 +510,6 @@
       <option name="presentableId" value="Default" />
       <updated>1497760548227</updated>
     </task>
-    <task id="LOCAL-00006" summary="Ajueste requeriments">
-      <created>1500843620868</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1500843620868</updated>
-    </task>
     <task id="LOCAL-00007" summary="Ajueste procfile">
       <created>1500949068886</created>
       <option name="number" value="00007" />
@@ -857,7 +846,14 @@
       <option name="project" value="LOCAL" />
       <updated>1501731974303</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="Template">
+      <created>1501904863005</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1501904863005</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TodoView">
@@ -920,7 +916,8 @@
     <MESSAGE value="Comando Instagram" />
     <MESSAGE value="Vista Instagram" />
     <MESSAGE value="Procfile" />
-    <option name="LAST_COMMIT_MESSAGE" value="Procfile" />
+    <MESSAGE value="Template" />
+    <option name="LAST_COMMIT_MESSAGE" value="Template" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1229,30 +1226,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/alarcogol/templates/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alarcogol/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="49">
-          <caret line="257" column="81" lean-forward="false" selection-start-line="257" selection-start-column="81" selection-end-line="257" selection-end-column="81" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alarcogol/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="51" column="53" lean-forward="false" selection-start-line="51" selection-start-column="53" selection-end-line="51" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/alarcogol/static/css/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
@@ -1280,7 +1253,31 @@
     <entry file="file://$PROJECT_DIR$/alarcogol/templates/fullwidth.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="18" column="14" lean-forward="true" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+          <caret line="18" column="14" lean-forward="false" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alarcogol/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="49">
+          <caret line="257" column="81" lean-forward="false" selection-start-line="257" selection-start-column="81" selection-end-line="257" selection-end-column="81" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alarcogol/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alarcogol/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="35" column="50" lean-forward="true" selection-start-line="35" selection-start-column="50" selection-end-line="35" selection-end-column="50" />
           <folding />
         </state>
       </provider>
