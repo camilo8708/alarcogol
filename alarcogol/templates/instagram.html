@@ -4,7 +4,7 @@
     {% with instance.get_media as media_feed %}
 
         {% for media in media_feed %}
-            <div class="col-lg-3">
+            <div class="col-lg-3 col-md-4 col-sd-6">
                 <div class="thumbnail" id="media-{{ media.id}}">
                     <a data-toggle="modal" data-target="#myModal{{ media.id}}">
                         <img alt="100%x200" data-src="holder.js/100%x200" src="{{ media.images.standard_resolution.url}}"
